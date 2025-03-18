@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `How does ${siteDetails.siteName} help my business?`,
+        answer: 'We set up a system that automates lead follow-ups, appointment booking, and customer communication—so you never lose a job due to slow responses.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `Do I need technical skills to use ${siteDetails.siteName}?`,
+        answer: 'Nope! We handle everything for you. We set up the CRM, automation, and follow-up sequences so you can focus on running your business.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'Can you connect this with my website and Facebook page?',
+        answer: 'Yes! We integrate everything—including your website, Facebook ads, and other lead sources—so no potential customers slip through the cracks.',
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Will this system automatically follow up with my leads?',
+        answer: 'Yes! We set up automated text, email, and voicemail follow-ups that make sure your leads get responses instantly—without you lifting a finger.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: 'What if I need help after setup?',
+        answer: 'We offer ongoing support and management, so if anything needs adjusting or improving, we handle it for you. You’ll never be stuck figuring things out alone.',
     }
 ];

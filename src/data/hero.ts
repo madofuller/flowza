@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Close More Deals, Waste Less Time',
+    subheading: 'Automate follow-ups, book more jobs, and never lose a lead again—Flowza keeps your business running while you focus on the work.',
     centerImageSrc: '/images/hero-mockup.webp',
-}
+};

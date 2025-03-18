@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'Flowza',
+    siteUrl: 'https://flowzasolutions.com',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Flowza - CRM & Automation for Contractors & Small Businesses',
+        description: 'Flowza helps contractors and service businesses close more deals, automate follow-ups, and book more jobs without the hassle.',
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
-    googleAnalyticsId: '', // e.g. G-XXXXXXX,
-}
+    siteLogo: `${process.env.BASE_PATH || ''}/images/flowzalogo.png`, // Ensure the correct logo file is used
+    googleAnalyticsId: '', // e.g. G-XXXXXXX (Add your GA ID if applicable)
+};
