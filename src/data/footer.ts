@@ -22,6 +22,8 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'matt@flowzasolutions.com', // Replace with your actual email
-    telephone: '+1 (316) 223-7018', // Replace with your actual phone number
+    email: 'matt@flowzasolutions.com',
+    telephone: '+1 (316) 223-7018',
+    socials: {
+    }
 };

@@ -17,7 +17,7 @@ const FAQ: React.FC = () => {
                         </h2>
                     </SectionTitle>
                     <p className="lg:mt-10 text-foreground-accent text-center lg:text-left">
-                        Need more details? We're happy to help!
+                        Need more details? We&apos;re happy to help!
                     </p>
                     <a 
                         href="mailto:matt@flowzasolutions.com" 

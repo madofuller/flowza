@@ -19,7 +19,9 @@ export interface IBenefitBullet {
 export interface IPricing {
     name: string;
     price: number | string;
+    bestFor?: string;
     features: string[];
+    note?: string; 
 }
 
 export interface IFAQ {
