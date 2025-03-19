@@ -1,3 +1,4 @@
+// app/page.tsx
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing/Pricing";
 import FAQ from "@/components/FAQ";
@@ -20,10 +21,7 @@ const HomePage: React.FC = () => {
         >
           <Pricing />
         </Section>
-
-
         <FAQ />
-
       </Container>
     </>
   );

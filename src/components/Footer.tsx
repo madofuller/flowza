@@ -12,14 +12,16 @@ const Footer: React.FC = () => {
                 <div>
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                    <Image 
-                        src="/images/logo.svg" 
-                        alt="Site Logo" 
-                        width={160}  // adjust width as needed
-                        height={100} // adjust height as needed
-                        className="min-w-fit"
-                    />
-                    </Link>
+                        <div className="w-24 sm:w-40">
+                            <Image
+                            src="/images/logo.svg"
+                            alt="Site Logo"
+                            width={160}
+                            height={100}
+                            className="min-w-fit w-full h-auto"
+                            />
+                        </div>
+                        </Link>
                     <p className="mt-3.5 text-foreground-accent">
                         {footerDetails.subheading}
                     </p>
