@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
 import { FaTools } from 'react-icons/fa'; // More relevant for contractors
-
+import Image from 'next/image';
 import Container from './Container';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
@@ -24,11 +24,15 @@ const Header: React.FC = () => {
                     
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <FaTools className="text-foreground min-w-fit w-7 h-7" />
-                        <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
-                            {siteDetails.siteName}
-                        </span>
+                    <Image 
+                        src="/images/logo.svg" 
+                        alt="Site Logo" 
+                        width={160}  // adjust width as needed
+                        height={100} // adjust height as needed
+                        className="min-w-fit"
+                    />
                     </Link>
+
 
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-6">

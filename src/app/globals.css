@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   --background: #ffffff;
@@ -19,13 +20,13 @@ html {
 
 body {
   @apply text-lg;
-  
   color: var(--foreground);
   background: var(--background);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 
 @layer utilities {
   .text-balance {
@@ -33,14 +34,16 @@ body {
   }
 }
 
+/* Updated the .manrope class to use Poppins */
 .manrope {
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
+/* Update headings to use Poppins */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }

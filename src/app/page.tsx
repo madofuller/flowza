@@ -13,7 +13,6 @@ const HomePage: React.FC = () => {
       <Logos />
       <Container>
         <Benefits />
-
         <Section
           id="pricing"
           title="Pricing"
