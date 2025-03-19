@@ -1,6 +1,4 @@
-import { ctaDetails } from "@/data/cta";
-import AppStoreButton from "./AppStoreButton";
-import PlayStoreButton from "./PlayStoreButton";
+
 import Script from "next/script";
 
 const CTA: React.FC = () => {
