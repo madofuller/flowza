@@ -1,4 +1,4 @@
-import { FiBarChart2, FiClock, FiMessageCircle, FiCheckCircle, FiUsers, FiTrendingUp, FiSettings, FiPhoneCall, FiGlobe } from "react-icons/fi";
+import { FiBarChart2, FiClock, FiMessageCircle, FiCheckCircle, FiUsers, FiTrendingUp, FiSettings, FiGlobe } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 export const benefits: IBenefit[] = [
