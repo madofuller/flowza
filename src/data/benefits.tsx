@@ -1,7 +1,6 @@
 import { FiBarChart2, FiClock, FiMessageCircle, FiCheckCircle, FiUsers, FiTrendingUp, FiSettings, FiPhoneCall, FiGlobe } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
-
 export const benefits: IBenefit[] = [
     {
         title: "Never Lose a Lead Again",
@@ -23,7 +22,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/appoint.jpg"
     },
     {
         title: "Save Hours Every Week",
@@ -45,28 +44,28 @@ export const benefits: IBenefit[] = [
                 icon: <FiSettings size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
+        imageSrc: "/images/email2.jpg"
     },
     {
-        title: "Your Business, Fully Connected",
-        description: "From calls and texts to social media and your website, Flowza keeps everything in sync so you never miss an opportunity.",
+        title: "Stay on Top Without Lifting a Finger",
+        description: "Flowza keeps your leads and customers engaged—so they never forget about you, and you never miss an opportunity.",
         bullets: [
             {
-                title: "Call Tracking & Recording",
-                description: "Log every customer call automatically so you never lose important details.",
-                icon: <FiPhoneCall size={26} />
-            },
-            {
-                title: "Facebook & Website Integration",
-                description: "Leads from social media and your website flow directly into your CRM.",
+                title: "Website & Social Media Sync",
+                description: "Leads from your website, Facebook, and ads flow directly into your CRM for easy tracking.",
                 icon: <FiGlobe size={26} />
             },
             {
-                title: "24/7 Lead Nurturing",
-                description: "Stay top-of-mind with automated check-ins and personalized follow-ups.",
+                title: "Smart Follow-Ups",
+                description: "Send automatic reminders, follow-ups, and check-ins to keep customers engaged.",
                 icon: <FiBarChart2 size={26} />
+            },
+            {
+                title: "Ongoing Engagement",
+                description: "Automated texts and emails keep your business in front of potential clients, even if they’re not ready yet.",
+                icon: <FiMessageCircle size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
-    },
+        imageSrc: "/images/ads.jpg"
+    }
 ]
