@@ -21,7 +21,7 @@ const Header: React.FC = () => {
         <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
           {/* Responsive logo wrapper */}
           <Link href="/" className="flex items-center gap-2">
-          <div className="w-16 sm:w-40">
+          <div className="w-24 sm:w-40">
             <Image
                 src="/images/logo.svg"
                 alt="Site Logo"
