@@ -14,9 +14,10 @@ const HomePage: React.FC = () => {
         {/* ✅ Website section comes FIRST after hero */}
         <Section
           id="websites"
-          title="Need More Leads? Start With a Website That Works"
-          description="We build high-converting websites that automatically send leads into your CRM—so you never miss an opportunity again."
+          title="We Build Websites That Bring You Customers"
+          description="We build high-converting websites that feed your CRM—so you never miss a lead."
         >
+
           <Website />
         </Section>
 

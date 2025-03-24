@@ -13,7 +13,7 @@ const Website: React.FC = () => {
 
         <ul className="mt-4 space-y-3 text-gray-700">
           <li>✅ Mobile-optimized website, custom-built for your business</li>
-          <li>✅ Connected to Flowza CRM for automated lead tracking & follow-ups</li>
+          <li>✅ Connected to CRM for automated lead tracking & follow-ups</li>
           <li>✅ SEO-ready & Google Business friendly</li>
           <li>✅ You own your domain—we power the system behind it</li>
           <li>✅ Want to update your photos or add services? Just text us.</li>
@@ -21,19 +21,19 @@ const Website: React.FC = () => {
 
         <a
           href="#pricing"
-          className="mt-6 inline-block bg-primary text-white py-3 px-6 rounded-lg shadow-md hover:bg-primary-accent transition"
+          className="mt-6 inline-block bg-primary text-white py-3 px-6 rounded-full hover:bg-primary-accent transition"
         >
-          Start Building Your Lead-Gen Site
+          Get Connected
         </a>
       </div>
 
       {/* Visual */}
       <div className="relative w-full max-w-md">
         <Image
-          src="/images/website-crm-mockup.webp" // Replace with your actual image
+          src="/images/roof.jpg" // Replace with your actual image
           alt="Website + CRM Integration"
           width={500}
-          height={350}
+          height={500}
           className="rounded-lg shadow-lg"
         />
       </div>
