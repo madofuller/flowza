@@ -21,7 +21,7 @@ const Website: React.FC = () => {
 
         <a
           href="#pricing"
-          className="mt-6 inline-block bg-primary text-white py-3 px-6 rounded-full hover:bg-primary-accent transition"
+          className="mt-6 inline-block bg-primary text-black py-3 px-6 rounded-full hover:bg-primary-accent transition"
         >
           Get Connected
         </a>
