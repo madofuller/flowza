@@ -1,11 +1,14 @@
+// Website.tsx
 import Image from "next/image";
 
 const Website: React.FC = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-10">
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
       {/* Text Content */}
-      <div className="max-w-xl">
-        <h2 className="text-3xl font-bold text-gray-900">Your Website, Built for Leads. Powered by Automation.</h2>
+      <div className="max-w-xl text-left">
+        <h2 className="text-3xl font-bold text-gray-900">
+          Your Website, Built for Leads. Powered by Automation.
+        </h2>
         <p className="mt-4 text-gray-600">
           We don’t just build websites—we create lead-generation engines. You own your domain, and we handle everything else:
           design, hosting, lead capture, and full CRM integration. All you need is an active Flowza subscription to keep it running smoothly.
@@ -30,7 +33,7 @@ const Website: React.FC = () => {
       {/* Visual */}
       <div className="relative w-full max-w-md">
         <Image
-          src="/images/roof.jpg" // Replace with your actual image
+          src="/images/roof.jpg"
           alt="Website + CRM Integration"
           width={500}
           height={500}
